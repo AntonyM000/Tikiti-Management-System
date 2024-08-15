@@ -179,7 +179,13 @@ background-size: cover;
   margin-right: auto;
 }
 
-
+/* notFoundPage */
+.backbutton{
+  color: white;
+  border: 5px solid black;
+  background-color: black;
+  border-radius: 10px;
+}
 
 
 

@@ -64,8 +64,7 @@ function Form({nameRef, emailRef, passwordRef, handleSubmit}){
 return(   
      <form onSubmit={handleSubmit} className='registerform'>
         <h2>Tikiti LLC</h2>
-        <h3>Registration Page</h3>
-        
+        <h3>Registration Page</h3>        
         <input type='text' ref={nameRef} placeholder='Full Name'/>
         <input type='email' ref={emailRef} placeholder='Enter your email address'/>
         <input  type='password' ref={passwordRef}placeholder='Enter your password'/>
